@@ -19,11 +19,15 @@ const colors = [
   "#ff3f34",
 ];
 const btn = document.querySelector("button");
-const nowColor = colors[Math.floor(Math.random() * colors.length)];
-const nowColor2 = colors[Math.floor(Math.random() * colors.length)];
 
-function changeColor() {
-  document.body.style.background = `lineal-gradient (to right, ${nowColor},${nowColor2})`;
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+const bgColor = document.createElement("backgroundColor");
+
+document.body.appendChild(bgColor);
+
+function colorChange() {
+  document.body.bgColor = randomColor;
 }
 
-btn.addEventListener("click", changeColor);
+btn.addEventListener("click", colorChange);
