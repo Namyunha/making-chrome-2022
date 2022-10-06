@@ -1,3 +1,3 @@
 # Making Chrome by Banila JS Update
 
-JS got so much better!
+JS is so much fun!
