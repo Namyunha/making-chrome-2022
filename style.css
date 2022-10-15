@@ -1,0 +1,25 @@
+.hidden {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+#quote span {
+  display: block;
+}
+#quote {
+  width: 900px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: CENTER;
+  justify-content: space-evenly;
+}
