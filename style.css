@@ -23,3 +23,7 @@ body {
   align-items: CENTER;
   justify-content: space-evenly;
 }
+img {
+  width: 600px;
+  height: 800px;
+}
